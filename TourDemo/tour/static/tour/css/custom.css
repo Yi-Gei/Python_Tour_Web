@@ -1,0 +1,20 @@
+.cwebwidth_fix{
+	width: 970px;
+}
+
+.cnavfont{
+	font-family:  "Microsoft YaHei",微软雅黑;
+	color: #404040;
+	font-size: 1.125em
+}
+
+.cnavuserfont{
+	font-family:  "Microsoft YaHei",微软雅黑;
+	color: #50c8aa;
+	font-size: 1em
+}
+
+.crelativeright{
+	position: relative;
+    left: 50px;
+}
