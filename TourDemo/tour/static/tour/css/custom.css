@@ -5,13 +5,13 @@
 .cnavfont{
 	font-family:  "Microsoft YaHei",微软雅黑;
 	color: #404040;
-	font-size: 1.125em
+	font-size: 1.5em
 }
 
 .cnavuserfont{
 	font-family:  "Microsoft YaHei",微软雅黑;
 	color: #50c8aa;
-	font-size: 1em
+	font-size: 1.3em
 }
 
 .crelativeright{
@@ -31,4 +31,77 @@
 	height: 432px;
 	background-color: black;
 	opacity: 0.7;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
 }
+
+.globalbg{
+	background-color: #F2F2F2;
+}
+
+.searchlabel1{
+	font-family:  "Microsoft YaHei",微软雅黑;
+	color: #FFFFFF;
+	font-size: 1.5em;
+
+}
+.searchlabel2{
+	position: relative;
+	font-family:  "Microsoft YaHei",微软雅黑;
+	color: #999999;
+	font-size: 1em;
+	left: 35px;
+}
+
+.searchbtn{
+	font-family:  "Microsoft YaHei",微软雅黑;
+	color: #65c298;
+	background-color: #FFFFFF;
+	border-radius: 0;
+    border-color: #FFFFFF;
+
+}
+
+.searchcontent{
+	font-family:  "Microsoft YaHei",微软雅黑;
+	color: #cccccc;
+	font-size: 1.3em;
+	border-radius: 0;
+	background-color: #FFFFFF;
+}
+
+.serchlabelpad{
+	padding-bottom: 10px;
+}
+
+.searchsecdiv{
+	position: relative;
+	font-size: 1em;
+	font-family: "Microsoft YaHei",微软雅黑;
+	top: 10px;
+}
+
+.suggestdiv{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.suggestfont{
+	font-size: 1em;
+	font-family: "Microsoft YaHei",微软雅黑;
+	color: #FFFFFF;
+}
+
+.suggestfontinterval{
+	position: relative;
+	left: 10px;
+
+}
+.searchsline{
+	color: #f7931e;
+}
+
+
+
+

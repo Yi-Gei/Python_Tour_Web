@@ -2,7 +2,60 @@
 {% block content %}
 <div class="headerbg center-block">
 	<div class="headersearch">
-	</div>
+		<div>
+			<div>
+				<label for="id_searchdiv">
+				<a class="searchlabel1">想去哪里?</a>
+				<a class="searchlabel2">浏览更多目的地 >></a>
+				</lable>
+			</div>
+			
+			<div class="input-group inputgroup_fix" id="id_searchdiv">
+      			<input type="text" class="form-control searchcontent" id="id_searchcontent" placeholder="目的地城市或国家">
+      			<span class="input-group-btn">
+        		<button class="btn btn-default searchbtn" type="button" id="id_searchbtn">开始</button>
+      		</span>
+      		</div>
+      	</div>
+
+      	<div class="searchsecdiv">
+      		<div>
+      			<a class="searchsline">推荐路线</a>
+            <div class="suggestdiv">
+              {% for line,url in suggestline%}
+
+              {% if suggestline.counter=="1"%}
+              <a class="suggestfont">line</a>
+              {% endif %}
+
+              {% if suggestline.counter=="2"%}
+              <a class="suggestfont suggestfontinterval">line</a>
+              {% endif %}
+
+              {% if suggestline.counter=="3"%}
+              <a class="suggestfont">line</a>
+              {% endif %}
+
+              {% if suggestline.counter=="4"%}
+              <a class="suggestfont suggestfontinterval">line</a>
+              {% endif %}
+
+              <% endfor %>
+
+
+
+              <a class="suggestfont">美国西海岸自驾游</a>
+              <a class="suggestfont suggestfontinterval">欧洲心灵度假之旅</a>
+              <br/>
+              <a class="suggestfont ">欧洲心灵度假之旅</a>
+              
+            </div>
+      		</div>
+      	</div>
+
+
+
+    </div>
 </div>
 
 
